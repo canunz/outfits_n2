@@ -1,0 +1,24 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local DBs and data artifacts
+outfits.db
+*.sqlite
+*.sqlite3
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Plots cache (keep generated figures folder tracked)
+# If you later add caches, list them here
+

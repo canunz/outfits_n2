@@ -1,0 +1,82 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   TRABAJO N.º 2 — CASO DE INVESTIGACIÓN N.º 2               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Título: Uso de regresión, clasificación y agrupamiento para responder hipótesis de BI
+Ponderación del curso: 30%
+Modalidad: Individual
+Entrega: Sábado 01 de noviembre, 23:59
+Presentación oral: No requerida (se evalúa exclusivamente el material entregado)
+
+───────────────────────────────────────────────────────────────────────────────
+1) ENTREGABLES
+───────────────────────────────────────────────────────────────────────────────
+• Código principal en Jupyter Notebook (.ipynb) o script ejecutable (.py)
+• README breve (máx. 1 párrafo) con: objetivo, dataset utilizado, instrucciones
+  de ejecución, dependencias y versión de Python
+• (Opcional, recomendado) Archivo de entorno (requirements.txt o environment.yml)
+• Datos o enlace al dataset con licencia de uso, diccionario de variables y fuente
+• Gráficos/figuras utilizados (si el notebook no los embebe, adjuntarlos en carpeta figuras/)
+
+Convención de nombre de archivo:
+→ BI_T2_ApellidoNombre.ipynb (o .py)
+→ BI_T2_ApellidoNombre.zip si incluye datos
+
+───────────────────────────────────────────────────────────────────────────────
+2) ESTRUCTURA ESPERADA DEL TRABAJO (ORDEN SUGERIDO)
+───────────────────────────────────────────────────────────────────────────────
+1. Título del trabajo
+2. Abstract (150–250 palabras)
+3. Objetivos (1 general y 3 específicos, claros y medibles)
+4. Hipótesis (una o más, contrastables con regresión, clasificación y clustering)
+5. Metodología
+   - Descripción del dataset (origen, tamaño, variables, licencias, limitaciones)
+   - Carga y preparación de datos (normalización, limpieza, manejo de nulos y outliers)
+   - EDA / Visualización exploratoria
+   - Partición de datos (holdout, validación cruzada si aplica)
+6. Modelado
+   - Regresión: modelo lineal simple/múltiple u otro justificado
+   - Clasificación: Random Forest, Árbol de Decisión o Regresión Logística
+   - Clustering: K-Means, DBSCAN o Jerárquico
+   - (Opcional) Reducción de dimensionalidad: PCA / UMAP
+   - Ajuste de hiperparámetros y justificación
+7. Métricas y evaluación
+   - Regresión: MAE, MSE/RMSE, R²
+   - Clasificación: Accuracy, Precisión, Recall, F1, ROC-AUC
+   - Clustering: Silhouette Score y Método del Codo
+8. Resultados y visualizaciones
+9. Discusión (impacto en BI, sesgos, limitaciones, mejoras)
+10. Conclusiones
+11. Bibliografía (citar datasets y librerías usadas)
+
+───────────────────────────────────────────────────────────────────────────────
+3) PUNTOS CLAVE Y REQUISITOS MÍNIMOS
+───────────────────────────────────────────────────────────────────────────────
+• Ajustar las hipótesis después de la EDA
+• Aplicar las tres técnicas obligatorias:
+  → Regresión (lineal o múltiple)
+  → Clasificación (Random Forest, Árbol o Logística)
+  → Clustering (K-Means, DBSCAN o Jerárquico)
+• Fijar semillas (random_state) y evitar data leakage
+• Documentar versiones y dependencias
+• El notebook debe ser autoexplicativo y reproducible
+
+───────────────────────────────────────────────────────────────────────────────
+4) CRITERIOS DE EVALUACIÓN (RÚBRICA RESUMIDA)
+───────────────────────────────────────────────────────────────────────────────
+15%  Planteamiento del problema e hipótesis
+15%  Calidad de datos y EDA
+30%  Implementación de modelos
+15%  Evaluación y métricas
+15%  Resultados y conclusiones BI
+10%  Reproducibilidad y documentación
++5%  Bonificación por DBSCAN/Clustering jerárquico con tuning o validación cruzada
+
+───────────────────────────────────────────────────────────────────────────────
+5) REGLAS Y OBSERVACIONES
+───────────────────────────────────────────────────────────────────────────────
+• Sin presentación oral: se evalúa solo el material entregado
+• Escribir con precisión técnica, sin jergas
+• Incluir referencias de datasets y librerías (pandas, sklearn, etc.)
+• Asegurar que el notebook se ejecute de principio a fin sin errores
+───────────────────────────────────────────────────────────────────────────────
